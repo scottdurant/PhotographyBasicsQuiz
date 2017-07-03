@@ -85,7 +85,23 @@
                 android:layout_margin="8dp"
                 android:text="The amount of background blur in a photo" />
 
-            
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="The size of the front of the lens" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="The size of the opening of the lens' diaphragm" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="The maximum depth of field" />
 
         </RadioGroup>
 
