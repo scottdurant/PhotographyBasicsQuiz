@@ -133,13 +133,7 @@
             android:text="Tamron"
             android:textSize="16sp" />
 
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:text="Sigma"
-            android:textSize="16sp" />
+
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -156,6 +150,14 @@
             android:layout_marginLeft="16dp"
             android:text="Sony"
             android:textSize="16sp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Sigma"
+            android:textSize="16sp"
+            />
 
 
     </LinearLayout>
