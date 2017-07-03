@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Photography Basics Quiz</string>
+    <string name="one">Question #1</string>
+    <string name="two">Question #2</string>
+    <string name="three">Question #3</string>
+    <string name="four">Question #4</string>
+    <string name="five">Question #5</string>
+
+    <string name="questionOne">Shutter speed refers to...</string>
+
+
+</resources>
