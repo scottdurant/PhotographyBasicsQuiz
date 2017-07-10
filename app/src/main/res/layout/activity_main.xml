@@ -31,8 +31,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="48dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -76,8 +75,7 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="48dp"
-            android:orientation="vertical">
+            style="@style/RadioGroupStyle">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -134,7 +132,6 @@
             android:textSize="16sp" />
 
 
-
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -150,14 +147,52 @@
             android:layout_marginLeft="16dp"
             android:text="Sony"
             android:textSize="16sp" />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:text="Sigma"
-            android:textSize="16sp"
-            />
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/four" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/questionFour" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/RadioGroupStyle">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The size of the camera's sensor" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sensitivity of the sensor to light" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount of time the shutter stays open" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of pixels in each photo" />
+        </RadioGroup>
 
 
     </LinearLayout>
