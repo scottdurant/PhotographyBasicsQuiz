@@ -199,6 +199,26 @@
         </RadioGroup>
 
 
+        <TextView
+            style="@style/QuestionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/five" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/questionFive" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your answer here"
+            android:layout_margin="16dp"
+            android:inputType="text" />
+
+
     </LinearLayout>
 
 

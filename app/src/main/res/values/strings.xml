@@ -10,6 +10,7 @@
     <string name="questionTwo">Aperature refers to...</string>
     <string name="questionThree">Select all of the following companies that make only lenses...</string>
     <string name="questionFour">ISO is...</string>
+    <string name="questionFive">Common file type that requires post processing</string>
 
 
 </resources>
