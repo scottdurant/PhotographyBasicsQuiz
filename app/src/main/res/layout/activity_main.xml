@@ -29,32 +29,32 @@
             android:text="@string/questionOne" />
 
         <RadioGroup
+            style="@style/RadioGroupStyle"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/RadioGroupStyle">
+            android:layout_height="wrap_content">
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="The speed at which a camera can take multiple photos" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="Amount of time the shutter stays open" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="Speed of the light entering the lens" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="How fast the lens can zoom" />
 
 
@@ -73,32 +73,32 @@
             android:text="@string/questionTwo" />
 
         <RadioGroup
+            style="@style/RadioGroupStyle"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/RadioGroupStyle">
+            android:layout_height="wrap_content">
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="The amount of background blur in a photo" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="The size of the front of the lens" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="The size of the opening of the lens' diaphragm" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="The maximum depth of field" />
 
         </RadioGroup>
@@ -169,26 +169,30 @@
             android:text="@string/questionFour" />
 
         <RadioGroup
+            style="@style/RadioGroupStyle"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/RadioGroupStyle">
+            android:layout_height="wrap_content">
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="The size of the camera's sensor" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sensitivity of the sensor to light" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Amount of time the shutter stays open" />
 
             <RadioButton
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Number of pixels in each photo" />
