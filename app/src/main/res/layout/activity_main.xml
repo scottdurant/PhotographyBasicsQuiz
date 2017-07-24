@@ -40,8 +40,8 @@
                 android:text="The speed at which a camera can take multiple photos" />
 
             <RadioButton
-                style="@style/RadioButtonStyle"
                 android:id="@+id/correct_answer_one_radio_button"
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Amount of time the shutter stays open" />
@@ -91,8 +91,8 @@
                 android:text="The size of the front of the lens" />
 
             <RadioButton
-                style="@style/RadioButtonStyle"
                 android:id="@+id/correct_answer_two_radio_button"
+                style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="The size of the opening of the lens' diaphragm" />
@@ -118,6 +118,7 @@
             android:text="@string/questionThree" />
 
         <CheckBox
+            android:id="@+id/nikon_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -136,6 +137,7 @@
 
 
         <CheckBox
+            android:id="@+id/canon_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -144,6 +146,7 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/sony_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -217,19 +220,20 @@
             android:text="@string/questionFive" />
 
         <EditText
+            android:id="@+id/q5_answer_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your answer here"
             android:layout_margin="16dp"
+            android:hint="Enter your answer here"
             android:inputType="text" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calculate Score"
-            android:layout_margin="24dp"
             android:layout_gravity="center_horizontal"
-            />
+            android:layout_margin="24dp"
+            android:onClick=""
+            android:text="Calculate Score" />
 
 
     </LinearLayout>
