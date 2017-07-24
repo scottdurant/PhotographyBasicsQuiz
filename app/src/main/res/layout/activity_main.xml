@@ -232,7 +232,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="24dp"
-            android:onClick=""
+            android:onClick="calculateScore"
             android:text="Calculate Score" />
 
 

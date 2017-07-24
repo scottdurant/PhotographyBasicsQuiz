@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,12 +49,32 @@ public class MainActivity extends AppCompatActivity {
         boolean questionFive;
         EditText questionFiveTextBox = (EditText) findViewById(R.id.q5_answer_box);
         String questionFiveAnswer = questionFiveTextBox.getText().toString();
-        if (questionFiveAnswer.equals("raw")) {
+        if (questionFiveAnswer.equalsIgnoreCase("raw")) {
             questionFive = true;
         } else {
             questionFive = false;
         }
 
+        int score = 0;
+
+        if (questionOne == true){
+            score += 1;
+        }
+        if (questionTwo == true){
+            score += 1;
+        }
+        if (questionThree == true){
+            score += 1;
+        }
+        if (questionFour == true){
+            score += 1;
+        }
+        if (questionFive == true){
+            score += 1;
+        }
+
+
+        Toast.makeText(this, "You scored " + score + "/5", Toast.LENGTH_LONG).show();
 
     }
 }
