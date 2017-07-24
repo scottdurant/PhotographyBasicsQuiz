@@ -41,6 +41,7 @@
 
             <RadioButton
                 style="@style/RadioButtonStyle"
+                android:id="@+id/correct_answer_one_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Amount of time the shutter stays open" />
@@ -91,6 +92,7 @@
 
             <RadioButton
                 style="@style/RadioButtonStyle"
+                android:id="@+id/correct_answer_two_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="The size of the opening of the lens' diaphragm" />
@@ -124,6 +126,7 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/tamron_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -149,6 +152,7 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/sigma_check_box"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -180,6 +184,7 @@
                 android:text="The size of the camera's sensor" />
 
             <RadioButton
+                android:id="@+id/correct_answer_four_radio_button"
                 style="@style/RadioButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -217,6 +222,14 @@
             android:hint="Enter your answer here"
             android:layout_margin="16dp"
             android:inputType="text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Score"
+            android:layout_margin="24dp"
+            android:layout_gravity="center_horizontal"
+            />
 
 
     </LinearLayout>
