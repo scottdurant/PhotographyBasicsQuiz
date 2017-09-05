@@ -233,6 +233,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="24dp"
+            android:id="@+id/calculateScoreButton"
             android:onClick="calculateScore"
             android:text="Calculate Score" />
 
