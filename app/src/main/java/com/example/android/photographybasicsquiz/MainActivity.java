@@ -81,6 +81,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent scoreIntent = new Intent(MainActivity.this, score.class);
                 startActivity(scoreIntent);
+                // now in the score activity
+
+
+
 
             }
         });
